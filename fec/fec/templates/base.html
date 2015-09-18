@@ -28,6 +28,27 @@
 
   <body class="{% block body_class %}{% endblock %}">
     {# {% wagtailuserbar %} #}
+    <!--[if lt IE 10]>
+    <div style="background-color: #631010; padding: 20px;">
+      <h2 style="color: #F77B42">Your browser is outdated</h2>
+      <p style="color: #F77B42">You're using an older version of Internet Explorer. Please update or switch to another browser like Chrome, Firefox, or Safari for a better experience.</p>
+      <p style="color: #F77B42"><a style="color: #F77B42; border-bottom-color: #F77B42;" target="_blank" href="http://browsehappy.com/">Learn how to update your browser.</a></p>
+    </div>
+    <![endif]-->
+
+    <noscript>
+      <div style="background-color: #631010; padding: 20px;">
+        <h2 style="color: #F77B42">Javascript Required</h2>
+        <p style="color: #F77B42">beta.FEC.gov uses Javascript to provide the best possible user experience. Please enable Javascript in your browser or visit fec.gov.</p>
+        <p style="color: #F77B42">
+          <a style="color: #F77B42; border-bottom-color: #F77B42;" target="_blank"
+              href="http://enable-javascript.com/">
+            Learn how to enable Javascript in your browser
+          </a>
+        </p>
+      </div>
+    </noscript>
+
     <a href="#main-content" class="u-visually-hidden">skip navigation</a>
 
     <header class="site-header">
